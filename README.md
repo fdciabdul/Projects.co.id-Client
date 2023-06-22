@@ -1,4 +1,6 @@
-<center> <img src="https://cdn.projects.co.id/assets/img/projectscoid.png">
+<center>
+
+ <img src="https://cdn.projects.co.id/assets/img/projectscoid.png">
 
 Unofficial client for Projects.co.id get latest latest project , your bids , finance , and search for open project
 
