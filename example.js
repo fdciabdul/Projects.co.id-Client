@@ -4,7 +4,7 @@ async function startClient() {
   try {
     const client = new Client();
     await client.login('username', 'password');
-    const myBids =  await client.getMyBids("scraping");
+    const myBids =  await client.getMyBids();
     const getNewProject = await client.getNewProject();
     const searchProject = await client.seacrhProject("scraping");
     console.log(myBids,getNewProject,searchProject);
