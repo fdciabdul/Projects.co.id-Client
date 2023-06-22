@@ -1,8 +1,8 @@
 import WebSocket from "ws";
 
 class WebSocketClient {
-    constructor(url) {
-        this.url = url;
+    constructor() {
+        this.url = 'wss://push.projects.co.id/';
         this.ws = new WebSocket(this.url);
     }
 
